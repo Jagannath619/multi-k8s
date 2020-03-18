@@ -16,7 +16,7 @@
          - name: server
            image: jagannath616/multi-server
            ports:
-             - containerPort: 5000  
+             - containerPort: 5000  #port
 ---
 apiVersion: v1
 kind: Service
@@ -28,4 +28,4 @@ spec:
     component: server
   ports:
     - port: 5000
-      targetPort: 5000    
+      targetPort: 5000
