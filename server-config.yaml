@@ -16,7 +16,7 @@
          - name: server
            image: jagannath616/multi-server
            ports:
-             - containerPort: 5000  #port
+             - containerPort: 5000  #port MAPPING
 ---
 apiVersion: v1
 kind: Service
