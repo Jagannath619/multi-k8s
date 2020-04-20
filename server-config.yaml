@@ -27,5 +27,5 @@ spec:
   selector:
     component: server
   ports:
-    - port: 8000
-      targetPort: 8000
+    - port: 9000
+      targetPort: 9000
