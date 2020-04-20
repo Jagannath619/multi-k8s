@@ -27,5 +27,10 @@ spec:
   selector:
     component: server
   ports:
+<<<<<<< HEAD
     - port: 6000
       targetPort: 6000
+=======
+    - port: 7000
+      targetPort: 7000
+>>>>>>> 0d1e6e23b8763cc20f7a4ca2d1508461f4a8ae76
